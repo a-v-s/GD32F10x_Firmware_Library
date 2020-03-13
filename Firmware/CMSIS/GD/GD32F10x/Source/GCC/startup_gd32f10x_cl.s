@@ -162,7 +162,7 @@ g_pfnVectors:
 
 g_pfnVectors:
 
-    .word     __initial_sp                      // Top of Stack
+    .word     __StackTop                        // Top of Stack
     .word     Reset_Handler                     // Reset Handler
     .word     NMI_Handler                       // NMI Handler
     .word     HardFault_Handler                 // Hard Fault Handler
